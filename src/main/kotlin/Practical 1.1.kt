@@ -1,21 +1,35 @@
+import kotlin.reflect.typeOf
+
 fun main()
 {
-    val x="Hello World"
-    println("$x is constant.")
+    val x:String="Hello World"
+    println("\"$x\" is Constant Value.\n")
 
-    var a=10
-    println("$a is Integer variable")
+    var a:Int=10
+    println("\"$a\" is Integer Value.")
 
-    var b="Hello"
-    println("$b is String variable")
+    var b:String="Hello"
+    println("\"$b\" is String Value.")
 
-    var c=15.30f
-    println("$c is Double variable")
+    var c:Float=15.30f
+    println("\"$c\" is Float Value.")
 
-    var d='P'
-    println("$d is Character variable")
+    var d:Char='P'
+    println("\"$d\" is Character Value.")
 
-    var e=false
-    println("$e is Boolian variable")
+    var e:Boolean=true
+    println("\"$e\" is Boolian Value.")
+
+    var f:Double=210.632589
+    println("\"$f\" is Double Value.")
+
+    var g:Long=21012011099
+    println("\"$g\" is Long Value.")
+
+    var h:Short=-99
+    println("\"$h\" is Short Value.")
+
+    var i:Byte=127
+    println("\"$i\" is Byte Value.")
 
 }
