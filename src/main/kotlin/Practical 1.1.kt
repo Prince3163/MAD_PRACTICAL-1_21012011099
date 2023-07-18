@@ -3,7 +3,7 @@ import kotlin.reflect.typeOf
 fun main()
 {
     val x:String="Hello World"
-    println("\"$x\" is Constant Value.\n")
+    println("\"$x\" is Constant Value.")
 
     var a:Int=10
     println("\"$a\" is Integer Value.")
