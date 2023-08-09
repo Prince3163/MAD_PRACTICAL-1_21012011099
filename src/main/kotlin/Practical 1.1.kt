@@ -1,5 +1,4 @@
 import kotlin.reflect.typeOf
-
 fun main()
 {
     val x:String="Hello World"
@@ -31,5 +30,4 @@ fun main()
 
     var i:Byte=127
     println("\"$i\" is Byte Value.")
-
 }

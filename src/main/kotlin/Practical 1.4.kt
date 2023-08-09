@@ -1,6 +1,6 @@
 fun main()
 {
-    println("Enter a number : ")
+    print("Enter a number : ")
     var num = Integer.parseInt(readLine())
 
     if(num % 2 == 0)

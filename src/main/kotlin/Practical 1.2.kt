@@ -1,4 +1,3 @@
-//Integer to Double, String to Integer, String to Double.
 fun main()
 {
     var a:Int=99
